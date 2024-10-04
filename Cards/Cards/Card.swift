@@ -43,8 +43,8 @@ struct Card: View {
             }.padding()
         }
         .cornerRadius(10)
-        .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.gray, lineWidth: 0.5))
-        .padding([.top,.horizontal], 10)
+       .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.gray, lineWidth: 0.5))
+       .padding([.top,.horizontal], 10)
     }
 }
 

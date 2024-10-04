@@ -9,9 +9,9 @@ import SwiftUI
 
 struct VerticalCard: View {
     var body: some View {
+        HeaderView()
         ScrollView {
-            HeaderView()
-            VStack {
+            LazyVStack {
                 Card(image: "France", category: "Swift UI", heading: "Drawing a border with rounded corner", author: "Mahmoud Fouad")
                 Card(image: "Estonia", category: "Swift UI", heading: "Drawing a border with rounded corner", author: "Mahmoud Fouad")
                 Card(image: "UK", category: "Swift UI", heading: "Drawing a border with rounded corner", author: "Mahmoud Fouad")

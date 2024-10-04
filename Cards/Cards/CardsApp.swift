@@ -1,14 +1,14 @@
 //
-//  CardViewApp.swift
-//  CardView
+//  CardsApp.swift
+//  Cards
 //
-//  Created by Mahmoud Fouad on 6/14/21.
+//  Created by Mahmoud Fouad on 05/10/2024.
 //
 
 import SwiftUI
 
 @main
-struct CardViewApp: App {
+struct CardsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
